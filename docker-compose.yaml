@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__Library: "Data Source=/app/data/library.db"
+      OpenApi__Enabled: "true"
+    volumes:
+      - library-data:/app/data
+      - library-logs:/app/logs
+
+volumes:
+  library-data:
+  library-logs:

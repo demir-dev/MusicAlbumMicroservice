@@ -1,1 +1,12 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MusicAlbumMicroservice.Api/MusicAlbumMicroservice.Api.csproj" />
+    <Project Path="src/MusicAlbumMicroservice.Application/MusicAlbumMicroservice.Application.csproj" />
+    <Project Path="src/MusicAlbumMicroservice.Domain/MusicAlbumMicroservice.Domain.csproj" />
+    <Project Path="src/MusicAlbumMicroservice.Infrastructure/MusicAlbumMicroservice.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MusicAlbumMicroservice.AutomatedTest/MusicAlbumMicroservice.AutomatedTest.csproj" />
+    <Project Path="tests/MusicAlbumMicroservice.UnitTests/MusicAlbumMicroservice.UnitTests.csproj" />
+  </Folder>
+</Solution>

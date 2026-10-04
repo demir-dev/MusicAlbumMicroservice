@@ -1,0 +1,83 @@
+# .NET build and publish output
+**/bin/
+**/obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+publish/
+*.nupkg
+*.snupkg
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.publish.xml
+*.pubxml
+*.pubxml.user
+
+# Rider / JetBrains / ReSharper
+.idea/
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.dotCover
+
+# VS Code local settings
+.vscode/
+
+# Test and coverage output
+[Tt]est[Rr]esults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Local databases and logs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.mdf
+*.ldf
+**/logs/
+*.log
+
+# Local credentials, environment files, and temporary files
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Application configuration is part of the deliverable
+!appsettings.json
+!appsettings.Development.json
